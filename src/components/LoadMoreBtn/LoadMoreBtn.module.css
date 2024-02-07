@@ -1,0 +1,20 @@
+.loadMore {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 50px;
+   background-color: #585757c5;
+}
+
+.loadMoreBtn {
+   width: 120px;
+   height: 50px;
+   text-align: center;
+   border-radius: 5px;
+   transition: all 0.3s ease;
+}
+
+.loadMoreBtn:hover {
+   background-color: #191ce4;
+   color: #ffff;
+}
