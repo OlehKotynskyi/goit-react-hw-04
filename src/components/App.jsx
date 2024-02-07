@@ -32,7 +32,6 @@ export const App = () => {
          try {
             setLoading(true);
             setError(false);
-            await new Promise(resolve => setTimeout(resolve, 9000));
             const fetchedData = await fechGallery(query.split('/')[1], page);
             if (page === 1 && fetchedData.length === 0) {
                setShowBtn(false);
